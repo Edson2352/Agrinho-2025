@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a Conexão Campo-Cidade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        nav {
+            background-color: #45a049;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .article-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festejando a Conexão Campo-Cidade</h1>
+        <p>Unindo dois mundos através de histórias e experiências</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#noticias">Notícias</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#gastronomia">Gastronomia</a></li>
+            <li><a href="#cultura">Cultura</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="article-grid">
+            <article class="article-card">
+                <img src="feira-organica.jpg" alt="Feira Orgânica" class="article-image">
+                <h2>Feira de Produtos Orgânicos une Produtores e Consumidores</h2>
+                <p>Nova feira semanal aproxima agricultores familiares e moradores da cidade...</p>
+                <a href="#">Leia mais</a>
+            </article>
+
+            <article class="article-card">
+                <img src="festival-rural.jpg" alt="Festival Rural" class="article-image">
+                <h2>Festival Celebra Cultura Rural no Centro da Cidade</h2>
+                <p>Evento traz música, dança e gastronomia do campo para a praça central...</p>
+                <a href="#">Leia mais</a>
+            </article>
+
+            <article class="article-card">
+                <img src="turismo-rural.jpg" alt="Turismo Rural" class="article-image">
+                <h2>Turismo Rural: Nova Tendência em Crescimento</h2>
+                <p>Famílias urbanas descobrem o encanto da vida no campo através do turismo rural...</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Festejando a Conexão Campo-Cidade. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
